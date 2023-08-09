@@ -2,6 +2,7 @@
 [![License: MIT](https://img.shields.io/github/license/yo1am1/scrapy-work)](https://github.com/yo1am1/scrapy-work/blob/main/LICENSE)
 [![GitHub last commit](https://img.shields.io/github/last-commit/yo1am1/scrapy-work)](https://github.com/yo1am1/scrapy-work/commits/main)
 ![Lint](https://github.com/yo1am1/scrapy-work/actions/workflows/black.yml/badge.svg?event=push)
+![GitHub Latest Pre-Release)](https://img.shields.io/github/v/release/yo1am1/scrapy-work?include_prereleases&label=pre-release&logo=github)
 
 ## Installation and Usage 🧠
 🥐 **Note: At the moment, the scraper only supports Work.ua. Updates and additional website support are coming soon!**
