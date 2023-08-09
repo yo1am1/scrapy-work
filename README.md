@@ -1,4 +1,7 @@
 # Scrapy-work: Work.ua Scraper for Python Developer Vacancies
+[![License: MIT](https://img.shields.io/github/license/yo1am1/bookstoreAPI)](https://github.com/yo1am1/bookstoreAPI/blob/main/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/yo1am1/bookstoreAPI)](https://github.com/yo1am1/bookstoreAPI/commits/main)
+![Lint](https://github.com/yo1am1/bookstoreAPI/actions/workflows/black.yaml/badge.svg?event=push)
 
 ## Installation and Usage 🧠
 🥐 **Note: At the moment, the scraper only supports Work.ua. Updates and additional website support are coming soon!**
