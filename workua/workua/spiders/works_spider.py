@@ -22,6 +22,8 @@ class VacancySpider(scrapy.Spider):
     start_urls = [
         "https://www.work.ua/jobs-python/",
         "https://www.work.ua/jobs-it-python/",
+        "https://www.work.ua/jobs-python+developer/",
+        "https://www.work.ua/jobs-python+django/",
     ]
 
     def parse(self, response):
@@ -42,7 +44,7 @@ class VacancySpider(scrapy.Spider):
         salary = get_salary(response)
         vip = get_vip(response)
         workers = get_workers(response)
-        views = response.css("#js-active-users-msg::text").get().strip()
+        views = get_views(response)
 
         vacancy_data = Vacancy(
             url=url,
@@ -59,7 +61,7 @@ class VacancySpider(scrapy.Spider):
 
 
 def get_views(response):
-    response.css("#js-active-users-msg::text").get().strip()
+    return response.css("#js-active-users-msg::text").get().strip()
 
 
 def get_workers(response):
