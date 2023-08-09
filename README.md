@@ -28,4 +28,4 @@
 5. ### _Good luck at finding job_!
 
 ## License
-This project is licensed under the [MIT License](LICENSE.md).
+This project is licensed under the [MIT License](LICENSE).
