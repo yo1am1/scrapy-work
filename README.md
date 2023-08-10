@@ -19,15 +19,18 @@
     ```bash
     pip install -r requirements.txt
     ```
+    > [!IMPORTANT]\
     > The `requirements.txt` file contains all the dependencies needed to run the scraper locally.
     
 4. **_Run_** web scrapper with command:
     ```bash
     scrapy crawl VacanciesSpider -O data.json
     ```
-    > Where `VacanciesSpider` - is the name of the scrapper, `-O data.json` - rewrites our data to [data.json](/workua/data.json) file.
+    > [!NOTE]\
+    >  Where `VacanciesSpider` - is the name of the scrapper, `-O data.json` - rewrites our data to [data.json](/workua/data.json) file.
     
-    > ⚠️ Use this command inside the project folder
+    > [!WARNING]\
+    >  Use this command inside the project folder
 
 5. ### _Good luck at finding job_!
 
