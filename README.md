@@ -29,7 +29,7 @@
     > [!NOTE]\
     >  Where `VacanciesSpider` - is the name of the scrapper, `-O data.json` - rewrites our data to [data.json](/workua/data.json) file.
     
-    > [!WARNING]\
+    > [!IMPORTANT]\
     >  Use this command inside the project folder
 
 5. ### _Good luck at finding job_!
