@@ -114,9 +114,11 @@ def get_views(response):
 
 def get_description(response):
     job_description: list = response.css(".mb-4::text").getall()
+    answer = []
     for string in job_description:
         string = string.strip()
-        if string not in ["", "\n", ","]:
-            return string
 
-    return None
+        if string not in ["", "\n", ","]:
+            answer.append(string)
+
+    return answer
