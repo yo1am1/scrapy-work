@@ -1,4 +1,4 @@
-# Scrapy settings for workua project
+# Scrapy settings for djinni project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -8,20 +8,20 @@
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 import random
 
-BOT_NAME = "workua"
+BOT_NAME = "djinni"
 
-SPIDER_MODULES = ["workua.spiders"]
-NEWSPIDER_MODULE = "workua.spiders"
+SPIDER_MODULES = ["djinni.spiders"]
+NEWSPIDER_MODULE = "djinni.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-# USER_AGENT = "workua (+http://www.yourdomain.com)"
+# USER_AGENT = "djinni (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-# CONCURRENT_REQUESTS = 32
+CONCURRENT_REQUESTS = 32
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
@@ -47,7 +47,7 @@ COOKIES_ENABLED = False
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 # SPIDER_MIDDLEWARES = {
-#    "workua.middlewares.WorkuaSpiderMiddleware": 543,
+#    "djinni.middlewares.DjinniSpiderMiddleware": 543,
 # }
 
 ROTATING_PROXY_LIST = [
@@ -279,8 +279,10 @@ ROTATING_PROXY_LIST = [
     # "45.169.92.149:999",
 ]
 
+
 # ROTATING_PROXY_LIST_PATH = "../proxies.txt"
 ROTATING_PROXY_LOGSTATS_INTERVAL = 16
+
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
@@ -291,6 +293,7 @@ DOWNLOADER_MIDDLEWARES = {
     "rotating_proxies.middlewares.BanDetectionMiddleware": 620,
 }
 
+
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
 # EXTENSIONS = {
@@ -300,7 +303,7 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 # ITEM_PIPELINES = {
-#    "workua.pipelines.WorkuaPipeline": 300,
+#    "djinni.pipelines.DjinniPipeline": 300,
 # }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
