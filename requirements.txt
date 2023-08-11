@@ -31,12 +31,17 @@ queuelib==1.6.2
 requests==2.31.0
 requests-file==1.5.1
 Scrapy==2.10.0
+scrapy-rotating-proxies==0.6.2
+scrapy-user-agents==0.1.1
 service-identity==23.1.0
 six==1.16.0
 tldextract==3.4.4
 tomli==2.0.1
 Twisted==22.10.0
+typing==3.7.4.3
 typing_extensions==4.7.1
+ua-parser==0.18.0
 urllib3==2.0.4
+user-agents==2.2.0
 w3lib==2.1.2
 zope.interface==6.0
