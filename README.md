@@ -27,7 +27,7 @@
     scrapy crawl VacanciesSpider -O data.json
     ```
     > [!NOTE]\
-    >  Where `VacanciesSpider` - is the name of the scrapper, `-O data.json` - rewrites our data to [data.json](/workua/data.json) file.
+    >  Where `VacanciesSpider` - is the name of the scrapper, `-O data.json` - rewrites our data to [data.json](/blob/main/workua/data.json) file.
     
     > [!IMPORTANT]\
     >  Use this command inside the project folder
